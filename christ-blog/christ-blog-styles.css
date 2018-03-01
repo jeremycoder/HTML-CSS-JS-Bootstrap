@@ -1,0 +1,40 @@
+/* CSS Styles for Blog About Christ */
+
+body {
+	border: 20px solid #bdc3c7;
+	margin: 20px auto;
+	width: 50%;
+	font-family: 'Source Sans Pro', sans-serif;
+	padding-left: 17px;
+	padding-right: 17px;
+}
+
+.date {
+	color: #3498db;
+	text-transform: uppercase;
+	font-weight: 600;
+	font-size: 15px;
+	letter-spacing: 2px;
+}
+
+h2 {
+	color: #2c3e50;
+	font-size: 30px;
+}
+
+p {
+	font-weight: 600;
+	font-size: 15px;
+}
+
+p:nth-of-type(2) {
+	border-left: 5px solid #bdc3c7;
+	padding-left: 5px;
+}
+
+hr {
+	border: 0;
+	height: 1px;
+	background: #d0d3db;
+	/* background-image: linear-gradient(to right, #ccc, #dadde5, #ccc); */
+}
