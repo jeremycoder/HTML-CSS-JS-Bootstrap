@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms - Radio Buttons, Select</title>
+</head>
+<body>
+  <p>Do you prefer cats or dogs?</p>
+  <form>
+    <label for="dogs">Dogs:</label>
+  	<input type="radio" name="petChoice" id="dogs" value="dogs" required>
+  	<label for="cats">Cats:</label>
+  	<input type="radio" name="petChoice" id="cats" value="cats">
+
+  	<p>How are you feeling right now?</p>
+  	<select name="mood" required>
+  		<option></option>
+  		<option value="happy">:)</option>
+  		<option value="neutral">:|</option>
+  		<option value="sad">:(</option>
+  	</select>
+  	<br>
+  	<br>
+
+  	<textarea name="paragraph" rows="10" cols="50" placeholder="Type your bio here"></textarea>
+  	<br>
+
+  	<!-- Button at end of form will automatically submit! -->
+  	<button>Go!</button>
+
+  </form>
+
+</body>
+</html>
